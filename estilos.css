@@ -1,0 +1,87 @@
+/* Aqui ponemos los efectos de los formularios cuando le haces click, el color segun si es correcto o incorrecta*/
+
+
+ 
+
+ /* Configuracion del menu, para que sea fijo, o al poner el raton cambie de color,
+  y que este situado a la izquierda de la pagina */
+  header {
+    background:#2dfc37;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display:flex;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: black;
+  }
+ 
+ .meme{
+    font-size: 20px;
+    color: black;
+    left: 10px;
+    position:absolute ;
+    top: 250px;
+}
+  /*fin de configuracion del menu */
+ 
+
+/*Ajustes de titulos, tamaños de imagenes, divs e inputs y colorines*/
+h1{
+    font-size: 40px;
+    color: #2dfc37;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    font-size: 20px;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+footer{
+    background: black;
+    width: 100%;
+    position:absolute;
+    color: white;
+    bottom: 1px;
+    text-align: center;
+    height: 50px;
+    font-size: 20px
+}
+
+p{
+  color: white;
+  font-size: 30px;
+}
+
+h4{
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    color: white;
+  }
+ img{
+  position: absolute;
+  top: 250px;
+ } 
